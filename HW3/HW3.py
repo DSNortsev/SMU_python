@@ -111,7 +111,7 @@ def main():
   metric = calculate_metric(stock_data, selected_option)
   # Print calcuated metric
 
-  print('Total observations:', metric[0])
+  print('\nTotal observations:', metric[0])
   print('Mean:              ', metric[1])
   print('Vol:               ', metric[2])
   print('Max:               ', metric[3])
