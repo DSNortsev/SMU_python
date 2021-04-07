@@ -45,10 +45,10 @@ def calculate_metric(data, option):
   total_sum = count = 0 
   # List of retrieve values based on selected option
   all_values = []
-  # Min valu is infinity 
+  # Min value set to infinity 
   min_value = float('inf')
   min_day = ''
-  # Max value is negative infinity
+  # Max value set to negative infinity
   max_value = float('-inf')
   max_day = ''
 
