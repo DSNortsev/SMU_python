@@ -20,7 +20,7 @@ df_dallas_per_month = df_dallas[['Date.Month', 'Data.Precipitation']]\
                         .reset_index()\
                         .round(2)
 # Save DataFrame as csv file
-df_dallas_per_month.to_csv('dallas_weather.csv')
+df_dallas_per_month.to_csv('dallas_weather.csv', index=False)
 
 # Plot a graph with 3 subplots 
 
